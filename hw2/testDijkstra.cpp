@@ -32,6 +32,10 @@ int main() {
     gr.addVertex(f);
     gr.addVertex(g);
     gr.addVertex(h);
-    cout << "Not implemented" << endl;
+    
+    gr.addEdge(a, b, 3);
+    
+    cout << "a: " << a << ", b: " << b << endl;
+
     return 0;
 }
